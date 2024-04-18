@@ -1,0 +1,33 @@
+.experiment-tracker {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 2fr));
+    grid-gap: 0px;
+    min-height: 80vh;
+  }
+  
+  .stage {
+    background-color: #ffae00; /* Yellow background color */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .stage-content{
+ display: flex;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column; /* Display steps in a column */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%; /* Adjust width to fill the available space */
+  }
+  
+  .step-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
